@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "ARMBPBankResources", "ARMBPBankResources\ARMBPBankResources.deployproj", "{5A4A1D20-5D96-48D3-A35B-26AD64668F89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A4A1D20-5D96-48D3-A35B-26AD64668F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4A1D20-5D96-48D3-A35B-26AD64668F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4A1D20-5D96-48D3-A35B-26AD64668F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4A1D20-5D96-48D3-A35B-26AD64668F89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0DE8988-0E33-4349-80DE-C414ECE69E20}
+	EndGlobalSection
+EndGlobal
