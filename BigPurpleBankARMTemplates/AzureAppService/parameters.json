@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "57267183-ae83-49e0-a655-e42fb03bb369"
+        },
+        "name": {
+            "value": "apiapp-bigpurplebank"
+        },
+        "location": {
+            "value": "Australia East"
+        },
+        "hostingPlanName": {
+            "value": "ASP-BigPurpleBank-9c0d"
+        },
+        "serverFarmResourceGroup": {
+            "value": "BigPurpleBank"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "sku": {
+            "value": "Basic"
+        },
+        "skuCode": {
+            "value": "B1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "netFrameworkVersion": {
+            "value": "v6.0"
+        }
+    }
+}
