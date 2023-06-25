@@ -15,7 +15,7 @@
             "value": "ASP-BigPurpleBank-9c0d"
         },
         "serverFarmResourceGroup": {
-            "value": "BigPurpleBank"
+            "value": "rg-BigPurpleBank-Dev"
         },
         "alwaysOn": {
             "value": true

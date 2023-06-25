@@ -130,7 +130,7 @@
                 "Request_Source": "IbizaWebAppExtensionCreate",
                 "Flow_Type": "Redfield",
                 "Application_Type": "web",
-                "WorkspaceResourceId": "/subscriptions/57267183-ae83-49e0-a655-e42fb03bb369/resourceGroups/BigPurpleBank/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-57267183-ae83-49e0-a655-e42fb03bb369-EAU"
+                "WorkspaceResourceId": "/subscriptions/57267183-ae83-49e0-a655-e42fb03bb369/resourceGroups/rg-BigPurpleBank-Dev/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-57267183-ae83-49e0-a655-e42fb03bb369-EAU"
             }
         },
         {
@@ -156,7 +156,7 @@
                 }
             },
             "subscriptionId": "[parameters('subscriptionId')]",
-            "resourceGroup": "BigPurpleBank"
+            "resourceGroup": "rg-BigPurpleBank-Dev"
         }
     ]
 }
