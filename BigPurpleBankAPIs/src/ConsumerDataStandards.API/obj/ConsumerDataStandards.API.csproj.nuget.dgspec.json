@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.API/ConsumerDataStandards.API.csproj": {}
+  },
+  "projects": {
+    "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.API/ConsumerDataStandards.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.API/ConsumerDataStandards.API.csproj",
+        "projectName": "ConsumerDataStandards.API",
+        "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.API/ConsumerDataStandards.API.csproj",
+        "packagesPath": "/Users/MKashyap/.nuget/packages/",
+        "outputPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/MKashyap/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj": {
+                "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj"
+              },
+              "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/ConsumerDataStandards.Infrastructure.csproj": {
+                "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/ConsumerDataStandards.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj",
+        "projectName": "ConsumerDataStandards.Core",
+        "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj",
+        "packagesPath": "/Users/MKashyap/.nuget/packages/",
+        "outputPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/MKashyap/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/ConsumerDataStandards.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/ConsumerDataStandards.Infrastructure.csproj",
+        "projectName": "ConsumerDataStandards.Infrastructure",
+        "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/ConsumerDataStandards.Infrastructure.csproj",
+        "packagesPath": "/Users/MKashyap/.nuget/packages/",
+        "outputPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/MKashyap/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj": {
+                "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

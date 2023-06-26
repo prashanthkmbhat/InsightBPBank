@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ut9G+1hSSwc67ev0YGkEwbY/Ud6G0/rIbYfSRbWLbQgp8i8davzVY+Ir3ExYjGgatObv4Et/67BdSqg1P5wYeQ==",
+  "success": true,
+  "projectFilePath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/MKashyap/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/MKashyap/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "/Users/MKashyap/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
