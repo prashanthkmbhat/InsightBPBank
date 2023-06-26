@@ -1,37 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.API/ConsumerDataStandards.API.csproj": {}
+    "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.API\\ConsumerDataStandards.API.csproj": {}
   },
   "projects": {
-    "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.API/ConsumerDataStandards.API.csproj": {
+    "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.API\\ConsumerDataStandards.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.API/ConsumerDataStandards.API.csproj",
+        "projectUniqueName": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.API\\ConsumerDataStandards.API.csproj",
         "projectName": "ConsumerDataStandards.API",
-        "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.API/ConsumerDataStandards.API.csproj",
-        "packagesPath": "/Users/MKashyap/.nuget/packages/",
-        "outputPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.API/obj/",
+        "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.API\\ConsumerDataStandards.API.csproj",
+        "packagesPath": "C:\\Users\\Call_Me_Harry_Potter\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/MKashyap/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Call_Me_Harry_Potter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj": {
-                "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj"
+              "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj": {
+                "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj"
               },
-              "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/ConsumerDataStandards.Infrastructure.csproj": {
-                "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/ConsumerDataStandards.Infrastructure.csproj"
+              "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\ConsumerDataStandards.Infrastructure.csproj": {
+                "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\ConsumerDataStandards.Infrastructure.csproj"
               }
             }
           }
@@ -78,26 +83,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj": {
+    "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj",
+        "projectUniqueName": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj",
         "projectName": "ConsumerDataStandards.Core",
-        "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj",
-        "packagesPath": "/Users/MKashyap/.nuget/packages/",
-        "outputPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/obj/",
+        "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj",
+        "packagesPath": "C:\\Users\\Call_Me_Harry_Potter\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/MKashyap/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Call_Me_Harry_Potter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -141,34 +151,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/ConsumerDataStandards.Infrastructure.csproj": {
+    "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\ConsumerDataStandards.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/ConsumerDataStandards.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\ConsumerDataStandards.Infrastructure.csproj",
         "projectName": "ConsumerDataStandards.Infrastructure",
-        "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/ConsumerDataStandards.Infrastructure.csproj",
-        "packagesPath": "/Users/MKashyap/.nuget/packages/",
-        "outputPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/obj/",
+        "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\ConsumerDataStandards.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Call_Me_Harry_Potter\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/MKashyap/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Call_Me_Harry_Potter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj": {
-                "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj"
+              "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj": {
+                "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj"
               }
             }
           }
@@ -204,7 +219,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

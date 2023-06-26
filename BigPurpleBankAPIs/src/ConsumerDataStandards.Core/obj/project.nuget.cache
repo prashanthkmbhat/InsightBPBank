@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ut9G+1hSSwc67ev0YGkEwbY/Ud6G0/rIbYfSRbWLbQgp8i8davzVY+Ir3ExYjGgatObv4Et/67BdSqg1P5wYeQ==",
+  "dgSpecHash": "1W78eE1GZT33se3ULPC6fFWXNs6l9u6vWlZS8N/ufYKzV9INFO4AIxilLyLS6Iy++0qYXDP4RbcWMUzpfCv4Rg==",
   "success": true,
-  "projectFilePath": "/Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj",
+  "projectFilePath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj",
   "expectedPackageFiles": [
-    "/Users/MKashyap/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "/Users/MKashyap/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "/Users/MKashyap/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512"
+    "C:\\Users\\Call_Me_Harry_Potter\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Call_Me_Harry_Potter\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Call_Me_Harry_Potter\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

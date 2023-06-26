@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/MKashyap/Projects/ConsumerDataStandards/test/ConsumerDataStandards.IntegrationTests/ConsumerDataStandards.IntegrationTests.csproj": {}
+    "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\test\\ConsumerDataStandards.IntegrationTests\\ConsumerDataStandards.IntegrationTests.csproj": {}
   },
   "projects": {
-    "/Users/MKashyap/Projects/ConsumerDataStandards/test/ConsumerDataStandards.IntegrationTests/ConsumerDataStandards.IntegrationTests.csproj": {
+    "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\test\\ConsumerDataStandards.IntegrationTests\\ConsumerDataStandards.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/MKashyap/Projects/ConsumerDataStandards/test/ConsumerDataStandards.IntegrationTests/ConsumerDataStandards.IntegrationTests.csproj",
+        "projectUniqueName": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\test\\ConsumerDataStandards.IntegrationTests\\ConsumerDataStandards.IntegrationTests.csproj",
         "projectName": "ConsumerDataStandards.IntegrationTests",
-        "projectPath": "/Users/MKashyap/Projects/ConsumerDataStandards/test/ConsumerDataStandards.IntegrationTests/ConsumerDataStandards.IntegrationTests.csproj",
-        "packagesPath": "/Users/MKashyap/.nuget/packages/",
-        "outputPath": "/Users/MKashyap/Projects/ConsumerDataStandards/test/ConsumerDataStandards.IntegrationTests/obj/",
+        "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\test\\ConsumerDataStandards.IntegrationTests\\ConsumerDataStandards.IntegrationTests.csproj",
+        "packagesPath": "C:\\Users\\Call_Me_Harry_Potter\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\test\\ConsumerDataStandards.IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/MKashyap/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Call_Me_Harry_Potter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
