@@ -1,0 +1,94 @@
+﻿<Properties StartupConfiguration="{D603E79E-4D21-470A-A827-5D525C3C52AA}|Default">
+  <MonoDevelop.Ide.ItemProperties.src.ConsumerDataStandards.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/ConsumerDataStandards.API/Filters/DatabaseInitFilter.cs">
+    <Files>
+      <File FileName="test/ConsumerDataStandards.Core.Tests/Services/BankingProductServiceTests.cs" Line="12" Column="8" IsPinned="True" />
+      <File FileName="src/ConsumerDataStandards.API/Program.cs" Line="28" Column="100" />
+      <File FileName="src/ConsumerDataStandards.API/Controllers/ProductsController.cs" Line="21" Column="79" />
+      <File FileName="src/ConsumerDataStandards.Core/Services/BankingProductService.cs" Line="26" Column="33" />
+      <File FileName="src/ConsumerDataStandards.Core/Models/BankingProductV4.cs" Line="30" Column="26" />
+      <File FileName="src/ConsumerDataStandards.Infrastructure/BankingProductRepository.cs" Line="13" Column="58" />
+      <File FileName="ConsumerDataStandards.sln" Line="13" Column="11" />
+      <File FileName="src/ConsumerDataStandards.Core/Models/BankingProductCategory.cs" Line="24" Column="9" />
+      <File FileName="test/ConsumerDataStandards.Core.Tests/ConsumerDataStandards.UnitTests.csproj" Line="1" Column="1" />
+      <File FileName="test/ConsumerDataStandards.Core.Tests/Fixtures/BankingProductServiceFixture.cs" Line="20" Column="3" />
+      <File FileName="test/ConsumerDataStandards.Core.Tests/Builders/BankingProductV4Builder.cs" Line="1" Column="41" />
+      <File FileName="src/ConsumerDataStandards.Core/Exceptions/BankingProductNotFoundException.cs" Line="1" Column="1" />
+      <File FileName="test/ConsumerDataStandards.IntegrationTests/appsettings.json" Line="4" Column="5" />
+      <File FileName="test/ConsumerDataStandards.IntegrationTests/Controllers/ProductsControllerTests.cs" Line="43" Column="10" />
+      <File FileName="src/ConsumerDataStandards.API/GetBankingProductsDtoValidator.cs" Line="1" Column="1" />
+      <File FileName="src/ConsumerDataStandards.Infrastructure/Scripts/001 - Create BankingProductV4.sql" Line="19" Column="3" />
+      <File FileName="src/ConsumerDataStandards.Infrastructure/Scripts/001 - Create BankingProductV4 (copy).sql" Line="3" Column="339" />
+      <File FileName="src/ConsumerDataStandards.Infrastructure/Config/DatabaseConfig.cs" Line="6" Column="23" />
+      <File FileName="src/ConsumerDataStandards.Core/Dtos/GetBankingProductsDto.cs" Line="15" Column="2" />
+      <File FileName="src/ConsumerDataStandards.API/Filters/HttpGlobalExceptionFilter.cs" Line="21" Column="24" />
+      <File FileName="src/ConsumerDataStandards.API/Filters/JsonErrorResponse.cs" Line="8" Column="23" />
+      <File FileName="src/ConsumerDataStandards.API/Filters/InternalServerErrorObjectResult.cs" Line="11" Column="10" />
+      <File FileName="test/ConsumerDataStandards.Tests.Common/Class1.cs" Line="1" Column="1" />
+      <File FileName="src/ConsumerDataStandards.API/appsettings.json" Line="2" Column="15" />
+      <File FileName="src/ConsumerDataStandards.API/Filters/DatabaseInitFilter.cs" Line="35" Column="105" />
+      <File FileName="src/ConsumerDataStandards.API/appsettings.Development.json" Line="7" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="ConsumerDataStandards" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="ConsumerDataStandards.API" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Filters" expanded="True">
+                  <Node name="DatabaseInitFilter.cs" selected="True" />
+                </Node>
+                <Node name="appsettings.json" expanded="True" />
+              </Node>
+              <Node name="ConsumerDataStandards.Core" expanded="True">
+                <Node name="Contracts" expanded="True" />
+                <Node name="Dtos" expanded="True" />
+                <Node name="Exceptions" expanded="True" />
+                <Node name="Models" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="ConsumerDataStandards.Infrastructure" expanded="True">
+                <Node name="Config" expanded="True" />
+                <Node name="IoC" expanded="True" />
+                <Node name="Repository" expanded="True" />
+                <Node name="Scripts" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="test" expanded="True">
+              <Node name="ConsumerDataStandards.IntegrationTests" expanded="True">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+              <Node name="ConsumerDataStandards.Tests.Common" expanded="True">
+                <Node name="Builders" expanded="True" />
+              </Node>
+              <Node name="ConsumerDataStandards.UnitTests" expanded="True">
+                <Node name="Fixtures" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ConsumerDataStandards" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/MKashyap/Projects/ConsumerDataStandards/ConsumerDataStandards/Controllers/ProductsController.cs" relfile="ConsumerDataStandards/Controllers/ProductsController.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <DisabledProjects>
+    <String>ConsumerDataStandards.Infra/ConsumerDataStandards.Infrastructure.csproj</String>
+    <String>ConsumerDataStandards.API/ConsumerDataStandards.API.csproj</String>
+    <String>ConsumerDataStandards.Core/ConsumerDataStandards.Core.csproj</String>
+  </DisabledProjects>
+</Properties>

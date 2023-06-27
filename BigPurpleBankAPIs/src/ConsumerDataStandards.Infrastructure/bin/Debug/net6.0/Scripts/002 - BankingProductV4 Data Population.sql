@@ -1,0 +1,3 @@
+﻿using System;
+INSERT INTO BankingProductV4 (ProductId, EffectiveFrom, EffectiveTo, LastUpdated, ProductCategory, Name, Description, Brand, BrandName, ApplicationUri, IsTailored, AdditionalInformationId, AdditionalInfo1, AdditionalInfo2, Title, ImageUri)
+VALUES ('123456', '2023-06-23 10:00:00', '2024-06-23 10:00:00', '2023-06-23 10:00:00', 1, 'Dummy Savings Account', 'This is a dummy savings account', 'Dummy Bank', 'Dummy Bank', 'https://www.dummybank.com/apply', 0, '789', 'Additional info 1', 'Additional info 2', 'Dummy Banking Product', 'https://www.dummybank.com/images/product.png');

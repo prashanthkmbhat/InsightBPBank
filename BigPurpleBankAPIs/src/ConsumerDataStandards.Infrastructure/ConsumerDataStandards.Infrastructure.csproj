@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="IoC\" />
+    <None Remove="Config\" />
+    <None Remove="Repository\" />
+    <None Remove="Scripts\" />
+    <None Remove="Scripts\001 - Create BankingProductV4.sql" />
+    <None Remove="Scripts\002 - BankingProductV4 Data Population.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IoC\" />
+    <Folder Include="Config\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Dapper.SimpleCRUD" Version="2.3.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsumerDataStandards.Core\ConsumerDataStandards.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\001 - Create BankingProductV4.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scripts\002 - BankingProductV4 Data Population.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
