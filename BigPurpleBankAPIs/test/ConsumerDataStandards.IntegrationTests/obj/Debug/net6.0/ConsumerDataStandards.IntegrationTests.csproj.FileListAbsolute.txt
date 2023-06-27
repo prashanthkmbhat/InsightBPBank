@@ -821,3 +821,33 @@ D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.In
 D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\obj\Debug\net6.0\ConsumerDataStandards.IntegrationTests.pdb
 D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\obj\Debug\net6.0\ConsumerDataStandards.IntegrationTests.genruntimeconfig.cache
 D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\obj\Debug\net6.0\ref\ConsumerDataStandards.IntegrationTests.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\ConsumerDataStandards.API.deps.json
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\ConsumerDataStandards.API.runtimeconfig.json
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\appsettings.Development.json
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\appsettings.json
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\ConsumerDataStandards.API.exe
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\Scripts\001 - Create BankingProductV4.sql
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\Scripts\002 - BankingProductV4 Data Population.sql
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\Dapper.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\Dapper.SimpleCRUD.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\dbup-core.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\dbup-sqlserver.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\FluentValidation.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\Microsoft.Azure.Services.AppAuthentication.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\ConsumerDataStandards.API.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\ConsumerDataStandards.Infrastructure.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\ConsumerDataStandards.API.pdb
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.IntegrationTests\bin\Debug\net6.0\ConsumerDataStandards.Infrastructure.pdb

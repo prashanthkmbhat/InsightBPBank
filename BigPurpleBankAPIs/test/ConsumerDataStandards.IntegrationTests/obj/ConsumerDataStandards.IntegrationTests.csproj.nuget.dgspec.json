@@ -4,6 +4,101 @@
     "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\test\\ConsumerDataStandards.IntegrationTests\\ConsumerDataStandards.IntegrationTests.csproj": {}
   },
   "projects": {
+    "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.API\\ConsumerDataStandards.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.API\\ConsumerDataStandards.API.csproj",
+        "projectName": "ConsumerDataStandards.API",
+        "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.API\\ConsumerDataStandards.API.csproj",
+        "packagesPath": "C:\\Users\\Call_Me_Harry_Potter\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Call_Me_Harry_Potter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj": {
+                "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj"
+              },
+              "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\ConsumerDataStandards.Infrastructure.csproj": {
+                "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\ConsumerDataStandards.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "dbup": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "dbup-sqlserver": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -72,6 +167,82 @@
         }
       }
     },
+    "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\ConsumerDataStandards.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\ConsumerDataStandards.Infrastructure.csproj",
+        "projectName": "ConsumerDataStandards.Infrastructure",
+        "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\ConsumerDataStandards.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Call_Me_Harry_Potter\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Call_Me_Harry_Potter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj": {
+                "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper.SimpleCRUD": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\test\\ConsumerDataStandards.IntegrationTests\\ConsumerDataStandards.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -99,6 +270,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.API\\ConsumerDataStandards.API.csproj": {
+                "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.API\\ConsumerDataStandards.API.csproj"
+              },
               "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj": {
                 "projectPath": "D:\\Source\\NewRepos\\InsightBPBank\\BigPurpleBankAPIs\\src\\ConsumerDataStandards.Core\\ConsumerDataStandards.Core.csproj"
               },

@@ -1,14 +1,12 @@
-﻿using System;
-using ConsumerDataStandards.Core.Models;
+﻿using ConsumerDataStandards.Core.Models;
 using ConsumerDataStandards.Tests.Common;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Newtonsoft.Json;
 
 namespace ConsumerDataStandards.IntegrationTests.Controllers
 {
-	public class ProductsControllerTests
+    public class ProductsControllerTests
 	{
 		private HttpClient _httpClient;
 
@@ -25,10 +23,10 @@ namespace ConsumerDataStandards.IntegrationTests.Controllers
 
 			var inputDto = new GetBankingProductsDtoBuilder()
 				.WithDefaultValues()
-				.WithBrand("ABC-Bank")
+				.WithBrand("NAB Bank")
 				.WithEffective("CURRENT")
 				.WithProductCategory(BankingProductCategory.BUSINESS_LOANS)
-				.WithUpdatedSince(DateTime.UtcNow.ToString("yyyy:MM:ddThh:mm:ssZ"))
+				.WithUpdatedSince(DateTime.UtcNow.AddDays(-3).ToString("yyyy-MM-ddThh:mm:ssZ"))
 				.WithPage(1)
 				.WithPageSize(5)
 				.Build();

@@ -2,6 +2,8 @@
 using ConsumerDataStandards.Core.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using ConsumerDataStandards.Core.Models;
+using System.Net;
+using ConsumerDataStandards.Core.Exceptions;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -18,9 +20,18 @@ namespace ConsumerDataStandards.API.Controllers
         }
         // GET: api/products
         [HttpGet]
-        public async Task<IEnumerable<BankingProductV4>> Get([FromQuery] GetBankingProductsDto getBankingProductsDto)
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        [ProducesResponseType(typeof(IEnumerable<BankingProductV4>),(int)HttpStatusCode.OK)]
+        public async Task<IActionResult> Get([FromQuery] GetBankingProductsDto getBankingProductsDto)
         {
-            return await _productService.GetProducts(getBankingProductsDto);
+            try
+            {
+                return Ok(await _productService.GetProducts(getBankingProductsDto));
+            }
+            catch (BankingProductNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
        
     }

@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-
+    <PreserveCompilationContext>true</PreserveCompilationContext>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
@@ -32,6 +32,7 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\src\ConsumerDataStandards.API\ConsumerDataStandards.API.csproj" />
     <ProjectReference Include="..\..\src\ConsumerDataStandards.Core\ConsumerDataStandards.Core.csproj" />
     <ProjectReference Include="..\ConsumerDataStandards.Tests.Common\ConsumerDataStandards.Tests.Common.csproj" />
   </ItemGroup>
