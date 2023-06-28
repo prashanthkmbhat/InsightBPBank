@@ -1,4 +1,4 @@
-﻿IF (EXISTS (SELECT * 
+﻿IF (NOT EXISTS (SELECT * 
                  FROM INFORMATION_SCHEMA.TABLES 
                  WHERE TABLE_SCHEMA = 'dbo' 
                  AND  TABLE_NAME = 'BankingProductV4'))
@@ -8,7 +8,7 @@ BEGIN
     EffectiveFrom DATETIME,
     EffectiveTo DATETIME,
     LastUpdated DATETIME,
-    ProductCategory INT,
+    ProductCategory VARCHAR(255),
     Name VARCHAR(255),
     Description VARCHAR(255),
     Brand VARCHAR(255),

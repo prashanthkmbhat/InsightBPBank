@@ -25,18 +25,26 @@ namespace ConsumerDataStandards.Infrastructure.Repository
         public async Task<List<BankingProductV4>> GetBankingProducts(GetBankingProductsDto bankingProductsDto)
         {
             var whereConditions = new StringBuilder();
-
-            whereConditions.Append($"where brand = @Brand");
+            if(bankingProductsDto.Effective == null)
+            {
+                bankingProductsDto.Effective = "CURRENT";
+            }
             switch (bankingProductsDto.Effective)
             {
                 case Effective.ALL: break;
-                case Effective.FUTURE: whereConditions.Append($" and effectiveFrom > @Effective and effectiveTo > @Effective"); break;
+                case Effective.FUTURE: whereConditions.Append($"where effectiveFrom > @Effective and effectiveTo > @Effective "); break;
                 case Effective.CURRENT:
                 default:
-                    whereConditions.Append($" and effectiveFrom < @Effective and effectiveTo > @Effective"); break;
+                    whereConditions.Append($"where effectiveFrom < @Effective and effectiveTo > @Effective "); break;
             }
-
-            whereConditions.Append($" and productCategory = @ProductCategory");
+            if (bankingProductsDto.Brand != null)
+            {
+                whereConditions.Append($" and brand = @Brand");
+            }
+            if (bankingProductsDto.ProductCategory != null)
+            {
+                whereConditions.Append($" and productCategory = @ProductCategory");
+            }
             if (bankingProductsDto.UpdatedSince != null)
             {
                 whereConditions.Append($" and lastUpdated > @LastUpdated");

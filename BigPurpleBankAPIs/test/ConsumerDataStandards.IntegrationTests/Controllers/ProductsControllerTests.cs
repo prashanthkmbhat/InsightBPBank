@@ -1,4 +1,5 @@
-﻿using ConsumerDataStandards.Core.Models;
+﻿using ConsumerDataStandards.Core.Exceptions;
+using ConsumerDataStandards.Core.Models;
 using ConsumerDataStandards.Tests.Common;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc.Testing;
@@ -23,10 +24,10 @@ namespace ConsumerDataStandards.IntegrationTests.Controllers
 
 			var inputDto = new GetBankingProductsDtoBuilder()
 				.WithDefaultValues()
-				.WithBrand("NAB Bank")
+				.WithBrand("NAB")
 				.WithEffective("CURRENT")
-				.WithProductCategory(BankingProductCategory.BUSINESS_LOANS)
-				.WithUpdatedSince(DateTime.UtcNow.AddDays(-3).ToString("yyyy-MM-ddThh:mm:ssZ"))
+				.WithProductCategory(BankingProductCategory.TERM_DEPOSITS)
+				.WithUpdatedSince(DateTime.UtcNow.AddDays(-20).ToString("yyyy-MM-dd hh:mm:ss"))
 				.WithPage(1)
 				.WithPageSize(5)
 				.Build();
@@ -39,6 +40,31 @@ namespace ConsumerDataStandards.IntegrationTests.Controllers
 			var result = JsonConvert.DeserializeObject<IEnumerable<BankingProductV4>>(await response.Content.ReadAsStringAsync());
             result.Should().NotBeNullOrEmpty();
         }
-	}
+
+
+        [Fact]
+        public async Task GetProducts_ReturnsProductsList_GivenInValidInput()
+        {
+            //?Effective=adsgas&UpdatedSince=asdgsa&Brand=asdg&ProductCategory=1&Page=1&PageSize=1
+
+            var inputDto = new GetBankingProductsDtoBuilder()
+                .WithDefaultValues()
+                .WithBrand("NAB GHGH")
+                .WithEffective("CURRENT")
+                .WithProductCategory(BankingProductCategory.TERM_DEPOSITS)
+                .WithUpdatedSince(DateTime.UtcNow.ToString("yyyy-MM-dd hh:mm:ss"))
+                .WithPage(1)
+                .WithPageSize(5)
+                .Build();
+
+            var queryParameters = $"Effective={inputDto.Effective}&UpdatedSince={inputDto.UpdatedSince}&" +
+                $"Brand={inputDto.Brand}&ProductCategory={inputDto.ProductCategory}&" +
+                $"Page={inputDto.Page}&PageSize={inputDto.PageSize}";
+
+            var response = await _httpClient.GetAsync($"/api/products?{queryParameters}");
+            var result = JsonConvert.DeserializeObject<IEnumerable<BankingProductNotFoundException>>(await response.Content.ReadAsStringAsync());
+            result.Should().NotBeNullOrEmpty();
+        }
+    }
 }
 

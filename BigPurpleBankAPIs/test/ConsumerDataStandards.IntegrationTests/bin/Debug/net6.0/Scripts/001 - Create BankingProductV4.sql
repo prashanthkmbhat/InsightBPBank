@@ -1,9 +1,14 @@
-﻿CREATE TABLE BankingProductV4 (
+﻿IF (NOT EXISTS (SELECT * 
+                 FROM INFORMATION_SCHEMA.TABLES 
+                 WHERE TABLE_SCHEMA = 'dbo' 
+                 AND  TABLE_NAME = 'BankingProductV4'))
+BEGIN
+    CREATE TABLE BankingProductV4 (
     ProductId VARCHAR(255),
     EffectiveFrom DATETIME,
     EffectiveTo DATETIME,
     LastUpdated DATETIME,
-    ProductCategory INT,
+    ProductCategory VARCHAR(255),
     Name VARCHAR(255),
     Description VARCHAR(255),
     Brand VARCHAR(255),
@@ -17,3 +22,4 @@
     ImageUri VARCHAR(255),
     PRIMARY KEY(ProductId)
 );
+END
