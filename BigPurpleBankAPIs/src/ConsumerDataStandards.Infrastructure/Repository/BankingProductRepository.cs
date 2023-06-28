@@ -31,7 +31,7 @@ namespace ConsumerDataStandards.Infrastructure.Repository
             }
             switch (bankingProductsDto.Effective)
             {
-                case Effective.ALL: break;
+                case Effective.ALL: whereConditions.Append($"where effectiveFrom > '2000-01-01 00:00:00'"); break;
                 case Effective.FUTURE: whereConditions.Append($"where effectiveFrom > @Effective and effectiveTo > @Effective "); break;
                 case Effective.CURRENT:
                 default:
@@ -54,8 +54,8 @@ namespace ConsumerDataStandards.Infrastructure.Repository
             //whereConditions.Append($" order by lastUpdated DESC OFFSET {bankingProductsDto.Page * bankingProductsDto.PageSize} ROWS FETCH NEXT {bankingProductsDto.PageSize} ROWS ONLY");
 
             await using var conn = new SqlConnection(ConnectionString);
-            var queryResult = await conn.GetListPagedAsync<BankingProductV4>(bankingProductsDto.Page.GetValueOrDefault(),
-                                                                             bankingProductsDto.PageSize.GetValueOrDefault(),
+            var queryResult = await conn.GetListPagedAsync<BankingProductV4>(bankingProductsDto.Page.GetValueOrDefault(1),
+                                                                             bankingProductsDto.PageSize.GetValueOrDefault(10),
                                                                              whereConditions.ToString(),
                                                                              orderbyCondition,
                                                                              new
