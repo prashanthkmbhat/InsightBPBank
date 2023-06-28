@@ -1,0 +1,15 @@
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\bin\Release\net6.0\ConsumerDataStandards.Tests.Common.deps.json
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\bin\Release\net6.0\ConsumerDataStandards.Tests.Common.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\bin\Release\net6.0\ConsumerDataStandards.Tests.Common.pdb
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\bin\Release\net6.0\ConsumerDataStandards.Core.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\bin\Release\net6.0\ConsumerDataStandards.Core.pdb
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\obj\Release\net6.0\ConsumerDataStandards.Tests.Common.csproj.AssemblyReference.cache
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\obj\Release\net6.0\ConsumerDataStandards.Tests.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\obj\Release\net6.0\ConsumerDataStandards.Tests.Common.AssemblyInfoInputs.cache
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\obj\Release\net6.0\ConsumerDataStandards.Tests.Common.AssemblyInfo.cs
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\obj\Release\net6.0\ConsumerDataStandards.Tests.Common.csproj.CoreCompileInputs.cache
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\obj\Release\net6.0\ConsumerDataStandards.Tests.Common.csproj.CopyComplete
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\obj\Release\net6.0\ConsumerDataStandards.Tests.Common.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\obj\Release\net6.0\refint\ConsumerDataStandards.Tests.Common.dll
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\obj\Release\net6.0\ConsumerDataStandards.Tests.Common.pdb
+D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\test\ConsumerDataStandards.Tests.Common\obj\Release\net6.0\ref\ConsumerDataStandards.Tests.Common.dll
