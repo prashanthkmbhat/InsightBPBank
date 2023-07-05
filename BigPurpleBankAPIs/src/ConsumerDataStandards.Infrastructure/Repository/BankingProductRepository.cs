@@ -18,7 +18,7 @@ namespace ConsumerDataStandards.Infrastructure.Repository
         protected readonly string ConnectionString;
         public BankingProductRepository(DatabaseConfig configuration)
         {
-            ConnectionString = configuration.ConnectionString ?? "";
+            ConnectionString = configuration.DBConnectionString ?? "";
             SimpleCRUD.SetDialect(SimpleCRUD.Dialect.SQLServer);
 
         }
@@ -67,13 +67,7 @@ namespace ConsumerDataStandards.Infrastructure.Repository
                                                                              });
 
 
-
-            if (queryResult == null || !queryResult.Any())
-            {
-                throw new BankingProductNotFoundException("No Products Found");
-            }
-
-            return queryResult.ToList();
+            return queryResult == null ? new List<BankingProductV4>() : queryResult.ToList();
 
         }
     }

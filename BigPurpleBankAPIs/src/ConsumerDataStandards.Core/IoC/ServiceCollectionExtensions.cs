@@ -10,6 +10,6 @@ namespace ConsumerDataStandards.Core.IoC
         {
             serviceCollection
                 .AddTransient<IBankingProductService, BankingProductService>();
-        }
+             }
     }
 }

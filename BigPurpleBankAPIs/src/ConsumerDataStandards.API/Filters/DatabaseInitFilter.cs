@@ -20,7 +20,7 @@ namespace ConsumerDataStandards.API.Filters
 
         public Action<IApplicationBuilder> Configure(Action<IApplicationBuilder> next)
         {
-            var connectionString = _config.ConnectionString;
+            var connectionString = _config.DBConnectionString;
             try
             {
                 EnsureDatabase.For.SqlDatabase(connectionString);

@@ -36,9 +36,9 @@ namespace ConsumerDataStandards.Tests.Common
 		{
 			_product = new BankingProductV4
             {
-                Brand = "test-brand",
+                Brand = "NAB",
                 EffectiveFrom = DateTime.Parse("2023-06-24T10:00:00Z"),
-                EffectiveTo = DateTime.Parse("2023-06-26T10:00:00Z"),
+                EffectiveTo = DateTime.Parse("2024-06-26T10:00:00Z"),
                 ApplicationUri = "http://dummy-app/",
                 BrandName = "test-brand-name",
                 CardArt = null,

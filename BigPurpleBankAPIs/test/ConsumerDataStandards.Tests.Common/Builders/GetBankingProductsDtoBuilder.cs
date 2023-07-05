@@ -43,10 +43,10 @@ namespace ConsumerDataStandards.Tests.Common
 		{
 			_dto = new GetBankingProductsDto
             {
-                Brand = "test-brand",
+                Brand = "NAB",
                 Effective = "CURRENT",
                 ProductCategory = BankingProductCategory.BUSINESS_LOANS,
-                UpdatedSince = "2024-06-23T10:00:00Z",
+                UpdatedSince = "2023-06-23T10:00:00Z",
                 Page = 1,
                 PageSize = 1
             };

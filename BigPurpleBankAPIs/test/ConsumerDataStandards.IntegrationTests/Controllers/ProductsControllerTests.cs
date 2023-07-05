@@ -62,8 +62,9 @@ namespace ConsumerDataStandards.IntegrationTests.Controllers
                 $"Page={inputDto.Page}&PageSize={inputDto.PageSize}";
 
             var response = await _httpClient.GetAsync($"/api/products?{queryParameters}");
-            var result = JsonConvert.DeserializeObject<IEnumerable<BankingProductNotFoundException>>(await response.Content.ReadAsStringAsync());
-            result.Should().NotBeNullOrEmpty();
+            response.StatusCode.Should().Be(System.Net.HttpStatusCode.NotFound);
+            var result = await response.Content.ReadAsStringAsync();
+            result.Should().Be("No banking products available in the store");
         }
     }
 }
