@@ -30,20 +30,3 @@
 /Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/obj/Debug/net6.0/refint/ConsumerDataStandards.Infrastructure.dll
 /Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/obj/Debug/net6.0/ConsumerDataStandards.Infrastructure.pdb
 /Users/MKashyap/Projects/ConsumerDataStandards/src/ConsumerDataStandards.Infrastructure/obj/Debug/net6.0/ref/ConsumerDataStandards.Infrastructure.dll
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\bin\Debug\net6.0\Scripts\001 - Create BankingProductV4.sql
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\bin\Debug\net6.0\Scripts\002 - BankingProductV4 Data Population.sql
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\bin\Debug\net6.0\ConsumerDataStandards.Infrastructure.deps.json
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\bin\Debug\net6.0\ConsumerDataStandards.Infrastructure.dll
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\bin\Debug\net6.0\ConsumerDataStandards.Infrastructure.pdb
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\bin\Debug\net6.0\ConsumerDataStandards.Core.dll
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\bin\Debug\net6.0\ConsumerDataStandards.Core.pdb
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\obj\Debug\net6.0\ConsumerDataStandards.Infrastructure.csproj.AssemblyReference.cache
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\obj\Debug\net6.0\ConsumerDataStandards.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\obj\Debug\net6.0\ConsumerDataStandards.Infrastructure.AssemblyInfoInputs.cache
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\obj\Debug\net6.0\ConsumerDataStandards.Infrastructure.AssemblyInfo.cs
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\obj\Debug\net6.0\ConsumerDataStandards.Infrastructure.csproj.CoreCompileInputs.cache
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\obj\Debug\net6.0\ConsumerDataStandards.Infrastructure.csproj.CopyComplete
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\obj\Debug\net6.0\ConsumerDataStandards.Infrastructure.dll
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\obj\Debug\net6.0\refint\ConsumerDataStandards.Infrastructure.dll
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\obj\Debug\net6.0\ConsumerDataStandards.Infrastructure.pdb
-D:\Source\NewRepos\InsightBPBank\BigPurpleBankAPIs\src\ConsumerDataStandards.Infrastructure\obj\Debug\net6.0\ref\ConsumerDataStandards.Infrastructure.dll

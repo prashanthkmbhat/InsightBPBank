@@ -8,11 +8,9 @@ using ConsumerDataStandards.API.Filters;
 using ConsumerDataStandards.Infrastructure.Config;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
+var builder = WebApplication.CreateBuilder(args);
 
-
-        var builder = WebApplication.CreateBuilder(args);
-
-        // Add services to the container.
+// Add services to the container.
 
         builder.Services.AddControllers()
             .AddJsonOptions(options => options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull);
